@@ -14,14 +14,13 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
 	background-color: #1a191f;
-	/* border: 1px solid red; */
 }
 
 .slider {
 	max-width: 83%;
 	margin: 5% auto;
-	padding: 1% 8% 2%;
-	background-color: #24222c;
+	padding: 1% 8% 4%;
+	background-color: #1a191f;
 	border: 4px solid #fdb851;
 	border-radius: 10px;
 }
@@ -31,7 +30,11 @@ body {
 	max-height: 54.5rem;
 	margin-bottom: 3rem;
 	overflow: hidden;
-	border: 1px dashed #fdb851;
+	border-top: 1px dashed #fcc676;
+	border-bottom: 1px dashed #fcc676;
+	border-left: 2px solid #fcc676;
+	border-right: 2px solid #fcc676;
+
 }
 
 input[name="radio"] {
